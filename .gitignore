@@ -1,0 +1,29 @@
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Dependencias de Node (no necesarias para n8n con Docker)
+node_modules/
+package-lock.json
+
+# Datos de n8n (si se generan localmente)
+.n8n/
+n8n-data/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-*
